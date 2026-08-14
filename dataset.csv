@@ -1,0 +1,7 @@
+wide_search_path,reference_path,gt_x,gt_y
+./search/000_dram_search.png,./reference/000_dram_ref.png,512.92,900.12
+./search/001_finfet_search.png,./reference/001_finfet_ref.png,371.82,263.80
+./search/004_dram_search.png,./reference/004_dram_ref.png,352.96,777.05
+./search/005_finfet_search.png,./reference/005_finfet_ref.png,795.17,146.79
+./search/009_finfet_hardperiodic_search.png,./reference/009_finfet_hardperiodic_ref.png,493.13,510.31
+./search/019_finfet_hardperiodic_search.png,./reference/019_finfet_hardperiodic_ref.png,488.13,486.15

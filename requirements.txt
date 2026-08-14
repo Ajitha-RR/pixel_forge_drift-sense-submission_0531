@@ -1,0 +1,20 @@
+# Exact versions verified working in this project's development environment.
+# Complete dependency set for generate_dataset.py, localize.py, inference.py,
+# and evaluate.py -- verified by actually running all of them.
+#
+# GPU NOTE: `pip install -r requirements.txt` alone installs the CPU-only
+# build of torch on most systems. This project requires NVIDIA GPU execution
+# per the KLA problem statement, so install the CUDA-enabled torch wheel
+# FIRST using the command below, then install the rest of this file:
+#
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cu126
+#   pip install -r requirements.txt
+#
+# If you don't have an NVIDIA GPU, the plain PyPI install below falls back
+# to CPU automatically (torch.cuda.is_available() is checked at runtime in
+# localize.py's get_device()).
+
+torch==2.13.0
+numpy==2.4.4
+Pillow==12.1.1
+scipy==1.17.1
